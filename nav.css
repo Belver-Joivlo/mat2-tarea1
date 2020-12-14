@@ -1,0 +1,146 @@
+/* Colores */
+body{
+	color:#333333; /* Cuerpo de texto */
+	background:#ffffff; /* Color de fondo */
+}
+#content{
+	border-color:#cccccc; /* Borde del contenedor principal */
+	background:#ffffff; /* Color de fondo del contenedor principal */
+}
+.pagination{
+	color:#fff; /* Color de texto del bloque Anterior/Siguiente: igual que el color de fondo de la página */
+	border-color:#999; /* Color de borde del bloque: borde superior */
+}
+.pagination a{
+	background-color:#005798; /* Color de fondo de los enlaces Anterior/Siguiente */
+	color:#FFF; /* Color de texto de estos enlaces */
+	
+}
+.pagination a:hover,.pagination a:focus{
+	background-color:#cfd9ea; /* Color de fondo de los enlaces Anterior/Siguiente al pasar sobre ellos */
+	color:#263264; /* Color de texto de estos enlaces al pasar sobre ellos */
+}
+#header{
+	color:#555; /* Color del texto */
+	text-shadow:1px 1px 1px #fff; /* Sombra del texto */
+}
+/* Menú */
+
+#siteNav a {
+	color:#FFFFFF; /* Color de los enlaces del menú */
+	text-align:center;
+}
+#siteNav a:hover {
+	color:#0460B3; /* Color de los enlaces del menú al pasar sobre ellos */
+	text-align:center;
+}
+#siteNav li .active{
+	color:#FFFFFF; /* Enlace activo en el menú principal */
+	text-decoration:underline;
+width:100%;
+}
+#siteNav li:hover, #siteNav li.sfhover{
+	color:#FFFFFF; 
+	 /* Color de fondo de los elementos del menú al pasar sobre ellos o sus hijos */
+	
+
+}
+#siteNav ul ul .daddy {
+	background-image:url(my_nav_arrow.gif); /* Imagen de los elementos de segundo nivel con hijos (flecha) */
+}
+
+/* Otras definiciones */
+body{padding:0;}
+#content{width:80%;margin:0 auto 10px auto;position:relative;
+/*border-style:solid;border-width:1px;
+border-top:0*/
+}
+
+#main{
+border: 1px solid #828282;
+border-bottom: 5px solid #828282;
+    margin: 3px auto 0;
+    padding-bottom: 10px;
+    width: auto;
+	 
+	
+}
+#header,#emptyHeader{height:39px;font-size:1.8em; color:#005798; 
+margin-top: 20px;
+}
+* html #header,* html #emptyHeader{height:100px} /* IE6 */
+#nodeTitle{font-size:1.5em; text-align: center;display: none;}
+#main #nodeDecoration{background:none;border:none; }
+/* Menú desplegable */
+
+#siteNav ul{
+float:left;
+list-style:none;padding:0;
+/*border-style:solid;*/
+border-width:1px 0;
+
+}
+
+#siteNav{
+	
+    background-color: #B04036;
+    border-radius: 20px 20px 0 0;
+    height: 40px;
+    width: 100%;
+
+
+
+}
+
+
+#siteNav a{display:block;text-decoration:none;padding:.4em 10px; text-align: center; font-weight:bold; width:100%}
+
+#siteNav a:hover{color:#FFFFFF; text-decoration:underline;}
+
+#siteNav li{float:left;padding: 10px 19px 0 0; border-left: 1px solid #FFFFFF; margin-top: -12px; height: 32px;}
+#siteNav li ul{position:absolute;left:-999em;height:auto;width:14.4em;w\idth:13.9em;border-width:0.25em;margin:0;font-weight:normal; text-align: center;}
+* html #siteNav li ul{width:13em}
+#siteNav li li{padding-right:1em;width:13em}
+#siteNav li ul a{font-size:.9em;padding:.45em 0px text-align: center;}
+#siteNav li ul ul{margin:-1.75em 0 0 14em}
+* html #siteNav li ul ul{margin-left:13em}
+#siteNav li:hover ul ul,#siteNav li:hover ul ul ul,#siteNav li.sfhover ul ul,#siteNav li.sfhover ul ul ul{left:-999em}
+#siteNav li:hover ul,#siteNav li li:hover ul,#siteNav li li li:hover ul,#siteNav li.sfhover ul,#siteNav li li.sfhover ul,#siteNav li li li.sfhover ul{left:auto}
+/* Pagination */
+.pagination{
+	
+    background: none repeat scroll 0 0 #ebebec;
+
+    height: 27px;
+    margin-top: 16.5px;
+    padding-top: 10px;
+    position: absolute;
+    width: 100%;
+	
+	
+
+}
+.pagination a{
+
+background-color: #B04036;
+  
+    color: #fff;
+    height: 30px;
+    padding: 11px;}
+.pagination a:hover,.pagination a:focus{text-decoration:none;
+background-color:#818285;
+}
+#topPagination{position:absolute;top:0;right:20px; display:none;}
+#topPagination .pagination{border:none}
+/* Pie de página e iDevices */
+#pageFooter{text-align:center;margin-left:-250px}
+.iDeviceTitle{vertical-align:top}
+/* Autoclear */
+#content:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0} 
+#content{display:inline-block}
+html[xmlns] #content{display:block}
+* html #content{height: 1%;overflow:visible}
+
+#skipNav{
+	display:none;
+	}

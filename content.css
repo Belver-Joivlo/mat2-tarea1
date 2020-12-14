@@ -1,0 +1,147 @@
+/* Imágenes utilizadas */
+/* my_logo.jpg - Imagen de la cabecera de los documentos exportados como Página sola */
+/* my_list.gif - Sustituye al punto de las listas no numeradas introducidas desde eXeLearning  */
+/* my_ims_header.jpg - Imagen de fondo para el título de cada página en los IMS y en los documentos exportados como Página sola */
+/* my_header.jpg - Imagen de la cabecera de los documentos exportados como Sitio web */
+
+/* Colores */
+
+
+
+body{
+	color:#333333; /* Cuerpo de texto */
+	background:#ffffff; /* Color de fondo */
+   line-height: 20px;
+}
+a{
+	color:#0083e8; /* Enlaces */
+}
+#header{
+	color:#666666; /* Título del proyecto */
+}
+
+#main #nodeDecoration{
+	border-color:#E7EBEE; /* Borde del título de cada página */
+	background-color:#DEE5EB; /* Color de fondo */
+}
+.iDeviceTitle{
+	color: #0066AB; /* Títulos de los iDevices */
+}
+.iDevice_inner{
+	background-color:#F6FCFE; /* Fondo del cuerpo del iDevice */
+	color:#4d4d4d; /* Texto de los iDevices */
+	border-color:#cccccc; /* Borde del cuerpo de los iDevices */
+}
+#pageFooter{
+	color:#666666; /* Texto del pie de página */
+}
+#pageFooter a{
+	color:#A7512B; /* Enlaces del pie de página */
+}
+input.feedbackbutton{
+	background-color: #DBE992; /* Color de fondo del botón de feedback */
+}
+
+/* Otras definiciones */
+body{font:.75em/1.5 Arial,Verdana,Helvetica,sans-serif;padding:15px;margin:0;text-align:left;line-height: 14px}
+#nodeTitle{font-size:1.5em;margin:0;text-align:left;font-weight:bold;}
+#main #nodeDecoration{padding:20px 15px 5px 15px;margin-bottom:15px;background-repeat:no-repeat;background-position:right 0;border-width:1px;border-style:solid;background-image:url(my_ims_header.jpg);text-align:left}
+
+#header{height:60px;background-repeat:no-repeat;background-position:0 0;padding-left:10px;padding-bottom:10px;font-size:1.1em;
+background-image:url(my_logo.jpg);background-repeat:no-repeat;
+
+}
+#header h1{margin:0;font-size:1em}
+
+#wikipedia-content ul li{list-style-image:none;margin-bottom:auto}
+#main h2{font-size:1.4em}
+#main h3{font-size:1.3em}
+#main h4{font-size:1.2em}
+#main h5{font-size:1.1em}
+.iDevice{margin:10px 20px 20px 20px; min-height: 400px;}
+.iDeviceTitle{font-size:1.2em;vertical-align:bottom;top:auto} 
+#main h2.iDeviceTitle{display:inline;font-size:1.2em}
+.iDevice_icon{width:30px;height:auto;margin-right:5px}
+.iDevice_inner{padding: 10px 20px;border-width:1px 0 1px 0;border-style:dotted}
+#pageFooter{font-size:.9em}
+#pageFooter p{margin:3px 0}
+/* base.css */
+.block,.feedback{padding:0}
+.feedback{font-family:Arial,Verdana,Helvetica,sans-serif;font-size:1em}
+li{list-style-position:outside}
+/* Image galleries */
+#lbBottomContainer{font-size:.95em}
+
+tr:nth-child(odd) {
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr = '#818285', endColorstr = '#818285');
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    -ms-filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr = '#818285', endColorstr = '#818285')";
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    background-image: -moz-linear-gradient(top, #818285, #818285);
+    background-image: -ms-linear-gradient(top, #818285, #818285);
+    background-image: -o-linear-gradient(top, #818285, #818285);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#818285), to(#818285));
+    background-image: -webkit-linear-gradient(top, #818285, #818285);
+    background-image: linear-gradient(top, #818285, #818285);
+    /*--IE9 DOES NOT SUPPORT GRADIENT BACKGROUNDS--*/
+
+}
+/*//////////////////////css para el menu interno y contenidos*/
+
+
+div#Imprimir {
+    color: #000;
+ margin-left: 89%;
+    margin-top: -75px;
+    position: absolute;
+	font-weight:bold
+}
+
+/*//////////////codigo para menu interno //////////////*/
+.tabs {
+	padding: 0px;
+    height: 57px;
+
+	width: 98%;
+	}
+	
+.tabs ul {
+
+	
+	margin-top: 1px;
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	position:absolute;
+	
+	 width:85%;
+	}
+	
+.tabs li {
+float: left;
+width: auto;
+display: inline;
+position: relative;
+}
+
+.tabs .selected{ 
+background: none repeat scroll 0 0 #DDDDDD; text-decoration:none;
+}
+
+.tabs a {
+	 color: #000000;
+    display: block;
+    font-size: 14px;
+    padding: 11px 15px 3px 10px;
+    width: auto;
+	text-decoration:none;
+	}
+	
+
+.tabs .separadores { 
+ border-left: 1px solid;
+    height: 35px;
+
+	}
