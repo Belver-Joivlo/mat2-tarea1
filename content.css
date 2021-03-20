@@ -43,7 +43,7 @@ input.feedbackbutton{
 }
 
 /* Otras definiciones */
-body{font:.75em/1.5 Arial,Verdana,Helvetica,sans-serif;padding:15px;margin:0;text-align:left;line-height: 14px}
+body{font:.95em/1.5 Arial,Verdana,Helvetica,sans-serif;padding:15px;margin:0;text-align:left;line-height: 14px}
 #nodeTitle{font-size:1.5em;margin:0;text-align:left;font-weight:bold;}
 #main #nodeDecoration{padding:20px 15px 5px 15px;margin-bottom:15px;background-repeat:no-repeat;background-position:right 0;border-width:1px;border-style:solid;background-image:url(my_ims_header.jpg);text-align:left}
 
